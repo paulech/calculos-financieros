@@ -8,7 +8,7 @@ import streamlit as st
 st.set_page_config(page_title="MatFin – Derecho Bancario", layout="wide")
 
 # ======= Encabezado / Ayuda rápida
-st.markdown("### Calculadora Interactiva — Matemática Financiera (Derecho Bancario)")
+st.markdown("### Calculadora Interactiva — Matemática Financiera - Derecho Privado VIII")
 st.caption("Navegación por **pestañas**; inputs en **formularios**; compatible con escritorio y celular.")
 
 # ======= Preferencias globales
@@ -309,10 +309,4 @@ with tabs[6]:
         ax.set_xlabel("Etapas"); ax.set_ylabel("Monto"); ax.legend()
         st.pyplot(fig)
 
-st.markdown("""
----
-**📌 Nota jurídica**  
-- **CCyC 768 / 770 / 772**: tasas desde mora; límites al anatocismo; deudas de valor.  
-- **Transparencia (BCRA, LDC)**: TEA/CFT, cronogramas y costos informados.  
-> Adapte método/tasa al texto normativo o criterio jurisprudencial aplicable. Este recurso es didáctico y no sustituye pericia contable/actuarial.
-""")
+
